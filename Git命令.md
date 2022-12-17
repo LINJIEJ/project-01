@@ -37,3 +37,11 @@
 ## git reflog --pretty=oneline  //当回退版本后可通过该命令查看回退之前的所有提交历史
 
 ## git reset --hard <commitID>  //再次根据指定的ID跳转到最新的版本
+
+## git remote add origin https://github.com/LINJIEJ/...  //将本地仓库和远程仓库进行关联，并把远程仓库命名为origin
+
+## git push -u origin master  //将本地仓库中的内容推送到远程的origin仓库中，第一次将文件推送到远程仓库中必须执行该命令
+
+## git push  //将本地仓库中新创建的文件推送到远程仓库中，只有第二次或以后的新建文件才能执行改简便命令
+
+## ssh-key-t rsa -b 4096 -C "2432693995@qq.com"  //生成ssh key，连续敲击三次回车键，即可在C:\User\用户名文件夹\.ssh目录中生成id_rsa(私钥文件，存放于客户端的电脑)和id_rsa.pub(公钥文件，配置到Github中)两个文件
