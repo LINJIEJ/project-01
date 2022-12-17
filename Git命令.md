@@ -44,4 +44,4 @@
 
 ## git push  //将本地仓库中新创建的文件推送到远程仓库中，只有第二次或以后的新建文件才能执行改简便命令
 
-## ssh-key-t rsa -b 4096 -C "2432693995@qq.com"  //生成ssh key，连续敲击三次回车键，即可在C:\User\用户名文件夹\.ssh目录中生成id_rsa(私钥文件，存放于客户端的电脑)和id_rsa.pub(公钥文件，配置到Github中)两个文件
+## ssh-keygen -t rsa -b 4096 -C "2432693995@qq.com"  //生成ssh key，连续敲击三次回车键，即可在C:\User\用户名文件夹\.ssh目录中生成id_rsa(私钥文件，存放于客户端的电脑)和id_rsa.pub(公钥文件，配置到Github中)两个文件
